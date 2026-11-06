@@ -1,0 +1,17 @@
+{"events": [
+ {"scheme": "glycols-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "INDIAGLYCO", "source_isin": "INE560A01015",
+  "source_name": "India Glycols Limited", "source_aliases": [],
+  "source_continues": true, "ex_date": "2026-09-02", "record_date": "2026-09-02",
+  "last_trading_date": null, "status": "complete",
+  "terms_source": "Cost (IGL 31.77%, Ennature 20.61%, IGL Spirits 47.62%): https://nsearchives.nseindia.com/corporate/INDIAGLYCO_06102026180443_Apportionment_of_Cost_of_Acquisition.pdf; ratios and record date: https://nsearchives.nseindia.com/corporate/INDIAGLYCO_21082026184049_SE_RECORD_DATE.pdf; ex-date: NSE corporate actions (Demerger, ex/record 02-Sep-2026); listing, symbols and ISINs: NSE circulars https://nsearchives.nseindia.com/content/circulars/CML77244.zip (Ennature) and https://nsearchives.nseindia.com/content/circulars/CML77246.zip (IGL Spirits)",
+  "notes": "Scheme of Arrangement amongst India Glycols, Ennature Bio Pharma (Resulting Co 1, bio-pharma/bio-polymers) and IGL Spirits (Resulting Co 2, spirits & biofuel), NSE observation letter NSE/LIST/48932; NCLT Allahabad order 17 Jul 2026; effective 1 Sep 2026. Both listed on NSE/BSE from 4 Nov 2026 in BE (trade-for-trade) series, moving to EQ on 19 Nov 2026. An earlier composite scheme (NSE ref 47345) that also included merging promoter entity Kashipur Holdings Limited into India Glycols appears to have been superseded by this scheme (not separately verified); Kashipur Holdings is unlisted, so it would give no event to public holders.",
+  "legs": [
+   {"target_ticker": "ENNATURE", "target_isin": "INE2WCT01016", "target_name": "Ennature Bio Pharma Limited",
+    "target_aliases": [], "instrument": "equity", "ratio": "3:1", "cost_share_pct": 20.61,
+    "listing_date": "2026-11-04", "face_value": 5, "cash_per_share": null},
+   {"target_ticker": "IGLSPIRITS", "target_isin": "INE2W6901017", "target_name": "IGL Spirits Limited",
+    "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 47.62,
+    "listing_date": "2026-11-04", "face_value": 5, "cash_per_share": null}
+  ]}
+]}

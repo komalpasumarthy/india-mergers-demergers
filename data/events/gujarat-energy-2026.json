@@ -1,0 +1,22 @@
+{"events": [
+ {"scheme": "gujarat-energy-2026", "step": 1, "kind": "MERGER",
+  "source_ticker": "GSPL", "source_isin": "INE246F01010",
+  "source_name": "Gujarat State Petronet Ltd", "source_aliases": [],
+  "source_continues": false, "ex_date": "2026-05-12", "record_date": "2026-05-12",
+  "last_trading_date": "2026-05-11", "status": "complete",
+  "terms_source": "Ratio (10 GGL FV Rs 2 for every 13 GSPL FV Rs 10) and Record Date 1/2 of 12-May-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_29042026174524_1562SECOutcomeofBM29042026.pdf; allotment of 27,06,97,005 shares to GSPL holders on record date 12-May-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_16052026211041_1569SECAllotment16052026.pdf; GSPL record date: https://nsearchives.nseindia.com/corporate/GSPL_29042026183552_NSEBSEReg30RecordDateandNotingofOrder.pdf; NSE notice 06-May-2026 suspending GSPL trading w.e.f. 12-May-2026 (last trading day 11-May-2026) and NSE corporate actions (GSPL, 'Merger', record date 12-May-2026). Cost 100% by merger rule.",
+  "notes": "Composite Scheme of Amalgamation and Arrangement (MCA order 08-Apr-2026, effective 01-May-2026): GSPC (unlisted, ratio 305:10) and GSPC Energy (unlisted) and GSPL (listed) merged into Gujarat Gas Ltd, which was renamed Gujarat Energy Ltd (NSE symbol GUJGASLTD -> GUJENERGY w.e.f. 01-Jul-2026); then the Gas Transmission Business was demerged into GSPL Transmission Ltd (step 2). Only GSPL's merger affects public holders, so GSPC is not modelled. T+1: ex-date = record date (NSE listing shows no separate ex-date). Fractional entitlements consolidated, sold via IDBI Trusteeship and proceeds distributed. Same scheme as candidate c0172 (gujaratgas-2025).",
+  "legs": [{"target_ticker": "GUJENERGY", "target_isin": "INE844O01030", "target_name": "Gujarat Energy Ltd (formerly Gujarat Gas Ltd)",
+            "target_aliases": ["GUJGASLTD"], "instrument": "equity", "ratio": "13:10", "cost_share_pct": 100,
+            "listing_date": null, "face_value": 2, "cash_per_share": null}]},
+ {"scheme": "gujarat-energy-2026", "step": 2, "kind": "DEMERGER",
+  "source_ticker": "GUJENERGY", "source_isin": "INE844O01030",
+  "source_name": "Gujarat Energy Ltd (formerly Gujarat Gas Ltd)", "source_aliases": ["GUJGASLTD"],
+  "source_continues": true, "ex_date": "2026-07-02", "record_date": "2026-07-02",
+  "last_trading_date": null, "status": "complete",
+  "terms_source": "Cost (GEL 70.66%, GTL 29.34%) and ratio: https://nsearchives.nseindia.com/corporate/GUJGASLTD_05092026193209_1617SECCostApportinti05092026.pdf; ratio (1 GTL FV Rs 10 for every 3 GEL FV Rs 2) and Record Date 3 of 02-Jul-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_19062026181348_1583IntiofRD319062026.pdf; allotment 08-Jul-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_08072026233019_1591GTLAllotmentInti08072026.pdf; listing w.e.f. 30-Sep-2026, NSE symbol GSPLTRANS, ISIN INE1TUG01013: https://nsearchives.nseindia.com/corporate/GUJGASLTD_29092026134031_1623SECGTLListingInti.pdf; NSE corporate actions (GUJENERGY 'Demerger', ex/record 02-Jul-2026).",
+  "notes": "Step 2 of the composite scheme (see step 1). Gas Transmission Business Undertaking of Gujarat Energy Ltd demerged into GSPL Transmission Ltd; appointed date 01-Apr-2025. Holders on Record Date 3 include ex-GSPL holders allotted GEL shares in step 1. Name/symbol change GUJGASLTD -> GUJENERGY effective 01-Jul-2026, one day before the record date. 31,27,43,617 GTL shares allotted. Same scheme as candidate c0172 (gujaratgas-2025).",
+  "legs": [{"target_ticker": "GSPLTRANS", "target_isin": "INE1TUG01013", "target_name": "GSPL Transmission Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "3:1", "cost_share_pct": 29.34,
+            "listing_date": "2026-09-30", "face_value": 10, "cash_per_share": null}]}
+]}

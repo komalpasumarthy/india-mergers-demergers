@@ -172,6 +172,142 @@
       ]
     },
     {
+      "scheme": "gujarat-energy-2026",
+      "step": 1,
+      "kind": "MERGER",
+      "source_ticker": "GSPL",
+      "source_isin": "INE246F01010",
+      "source_name": "Gujarat State Petronet Ltd",
+      "source_aliases": [],
+      "source_continues": false,
+      "ex_date": "2026-05-12",
+      "record_date": "2026-05-12",
+      "last_trading_date": "2026-05-11",
+      "status": "complete",
+      "terms_source": "Ratio (10 GGL FV Rs 2 for every 13 GSPL FV Rs 10) and Record Date 1/2 of 12-May-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_29042026174524_1562SECOutcomeofBM29042026.pdf; allotment of 27,06,97,005 shares to GSPL holders on record date 12-May-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_16052026211041_1569SECAllotment16052026.pdf; GSPL record date: https://nsearchives.nseindia.com/corporate/GSPL_29042026183552_NSEBSEReg30RecordDateandNotingofOrder.pdf; NSE notice 06-May-2026 suspending GSPL trading w.e.f. 12-May-2026 (last trading day 11-May-2026) and NSE corporate actions (GSPL, 'Merger', record date 12-May-2026). Cost 100% by merger rule.",
+      "notes": "Composite Scheme of Amalgamation and Arrangement (MCA order 08-Apr-2026, effective 01-May-2026): GSPC (unlisted, ratio 305:10) and GSPC Energy (unlisted) and GSPL (listed) merged into Gujarat Gas Ltd, which was renamed Gujarat Energy Ltd (NSE symbol GUJGASLTD -> GUJENERGY w.e.f. 01-Jul-2026); then the Gas Transmission Business was demerged into GSPL Transmission Ltd (step 2). Only GSPL's merger affects public holders, so GSPC is not modelled. T+1: ex-date = record date (NSE listing shows no separate ex-date). Fractional entitlements consolidated, sold via IDBI Trusteeship and proceeds distributed. Same scheme as candidate c0172 (gujaratgas-2025).",
+      "legs": [
+        {
+          "target_ticker": "GUJENERGY",
+          "target_isin": "INE844O01030",
+          "target_name": "Gujarat Energy Ltd (formerly Gujarat Gas Ltd)",
+          "target_aliases": [
+            "GUJGASLTD"
+          ],
+          "instrument": "equity",
+          "ratio": "13:10",
+          "cost_share_pct": 100,
+          "listing_date": null,
+          "face_value": 2,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "gujarat-energy-2026",
+      "step": 2,
+      "kind": "DEMERGER",
+      "source_ticker": "GUJENERGY",
+      "source_isin": "INE844O01030",
+      "source_name": "Gujarat Energy Ltd (formerly Gujarat Gas Ltd)",
+      "source_aliases": [
+        "GUJGASLTD"
+      ],
+      "source_continues": true,
+      "ex_date": "2026-07-02",
+      "record_date": "2026-07-02",
+      "last_trading_date": null,
+      "status": "complete",
+      "terms_source": "Cost (GEL 70.66%, GTL 29.34%) and ratio: https://nsearchives.nseindia.com/corporate/GUJGASLTD_05092026193209_1617SECCostApportinti05092026.pdf; ratio (1 GTL FV Rs 10 for every 3 GEL FV Rs 2) and Record Date 3 of 02-Jul-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_19062026181348_1583IntiofRD319062026.pdf; allotment 08-Jul-2026: https://nsearchives.nseindia.com/corporate/GUJGASLTD_08072026233019_1591GTLAllotmentInti08072026.pdf; listing w.e.f. 30-Sep-2026, NSE symbol GSPLTRANS, ISIN INE1TUG01013: https://nsearchives.nseindia.com/corporate/GUJGASLTD_29092026134031_1623SECGTLListingInti.pdf; NSE corporate actions (GUJENERGY 'Demerger', ex/record 02-Jul-2026).",
+      "notes": "Step 2 of the composite scheme (see step 1). Gas Transmission Business Undertaking of Gujarat Energy Ltd demerged into GSPL Transmission Ltd; appointed date 01-Apr-2025. Holders on Record Date 3 include ex-GSPL holders allotted GEL shares in step 1. Name/symbol change GUJGASLTD -> GUJENERGY effective 01-Jul-2026, one day before the record date. 31,27,43,617 GTL shares allotted. Same scheme as candidate c0172 (gujaratgas-2025).",
+      "legs": [
+        {
+          "target_ticker": "GSPLTRANS",
+          "target_isin": "INE1TUG01013",
+          "target_name": "GSPL Transmission Ltd",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "3:1",
+          "cost_share_pct": 29.34,
+          "listing_date": "2026-09-30",
+          "face_value": 10,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "inox-green-energy-services-2026",
+      "step": 1,
+      "kind": "DEMERGER",
+      "source_ticker": "INOXGREEN",
+      "source_isin": "INE510W01014",
+      "source_name": "Inox Green Energy Services Ltd",
+      "source_aliases": [],
+      "source_continues": true,
+      "ex_date": "2026-07-31",
+      "record_date": "2026-08-01",
+      "last_trading_date": null,
+      "status": "detected",
+      "terms_source": "Ratio (122 IRSL for 1,000 IGESL, FV Rs 10) and record date 1 Aug 2026: https://nsearchives.nseindia.com/corporate/IGESL_22072026195858_IGESL_SE_intimation_regarding_NCLT_Record_date_dsc.pdf; ex-date 31-Jul-2026: NSE corporate actions API (symbol INOXGREEN, subject Demerger); allotment of 4,89,82,030 IRSL shares on 24 Aug 2026: https://nsearchives.nseindia.com/corporate/IGESL_24082026202300_IGESL_SE_intimation_Allotment_IRSL_24082026.pdf; effective date 4 May 2026: https://nsearchives.nseindia.com/corporate/IGESL_04052026182821_IGESL_SE_intimation_regarding_NCLT_effective_date_dsc.pdf",
+      "notes": "Demerger of the Power Evacuation Business of IGESL into Inox Renewable Solutions Ltd (IRSL, formerly Resco Global Wind Services Pvt Ltd; the candidate's Resco scheme filing is the same scheme). NCLT Ahmedabad sanctioned 13 Mar 2026; effective 4 May 2026; appointed date 1 Oct 2024. Record date is Saturday 1 Aug 2026; NSE lists ex-date Friday 31 Jul 2026 (NSE special pre-open that day). Scheme's warrant exchange ratio not applicable (no outstanding warrants). Missing: cost-of-acquisition apportionment not found; IRSL listing date, NSE symbol and ISIN not found (as of the 24 Aug 2026 allotment letter IRSL was still seeking listing approval).",
+      "legs": [
+        {
+          "target_ticker": null,
+          "target_isin": null,
+          "target_name": "Inox Renewable Solutions Ltd",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "1000:122",
+          "cost_share_pct": null,
+          "listing_date": null,
+          "face_value": 10,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "glycols-2026",
+      "step": 1,
+      "kind": "DEMERGER",
+      "source_ticker": "INDIAGLYCO",
+      "source_isin": "INE560A01015",
+      "source_name": "India Glycols Limited",
+      "source_aliases": [],
+      "source_continues": true,
+      "ex_date": "2026-09-02",
+      "record_date": "2026-09-02",
+      "last_trading_date": null,
+      "status": "complete",
+      "terms_source": "Cost (IGL 31.77%, Ennature 20.61%, IGL Spirits 47.62%): https://nsearchives.nseindia.com/corporate/INDIAGLYCO_06102026180443_Apportionment_of_Cost_of_Acquisition.pdf; ratios and record date: https://nsearchives.nseindia.com/corporate/INDIAGLYCO_21082026184049_SE_RECORD_DATE.pdf; ex-date: NSE corporate actions (Demerger, ex/record 02-Sep-2026); listing, symbols and ISINs: NSE circulars https://nsearchives.nseindia.com/content/circulars/CML77244.zip (Ennature) and https://nsearchives.nseindia.com/content/circulars/CML77246.zip (IGL Spirits)",
+      "notes": "Scheme of Arrangement amongst India Glycols, Ennature Bio Pharma (Resulting Co 1, bio-pharma/bio-polymers) and IGL Spirits (Resulting Co 2, spirits & biofuel), NSE observation letter NSE/LIST/48932; NCLT Allahabad order 17 Jul 2026; effective 1 Sep 2026. Both listed on NSE/BSE from 4 Nov 2026 in BE (trade-for-trade) series, moving to EQ on 19 Nov 2026. An earlier composite scheme (NSE ref 47345) that also included merging promoter entity Kashipur Holdings Limited into India Glycols appears to have been superseded by this scheme (not separately verified); Kashipur Holdings is unlisted, so it would give no event to public holders.",
+      "legs": [
+        {
+          "target_ticker": "ENNATURE",
+          "target_isin": "INE2WCT01016",
+          "target_name": "Ennature Bio Pharma Limited",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "3:1",
+          "cost_share_pct": 20.61,
+          "listing_date": "2026-11-04",
+          "face_value": 5,
+          "cash_per_share": null
+        },
+        {
+          "target_ticker": "IGLSPIRITS",
+          "target_isin": "INE2W6901017",
+          "target_name": "IGL Spirits Limited",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "1:1",
+          "cost_share_pct": 47.62,
+          "listing_date": "2026-11-04",
+          "face_value": 5,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
       "scheme": "heg-advanced-materials-2026",
       "step": 1,
       "kind": "DEMERGER",
@@ -229,6 +365,96 @@
           "cost_share_pct": null,
           "listing_date": null,
           "face_value": 10,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "bhagyanagar-2026",
+      "step": 1,
+      "kind": "DEMERGER",
+      "source_ticker": "BHAGYANGR",
+      "source_isin": "INE458B01036",
+      "source_name": "Bhagyanagar India Ltd",
+      "source_aliases": [],
+      "source_continues": true,
+      "ex_date": "2026-10-08",
+      "record_date": "2026-10-08",
+      "last_trading_date": null,
+      "status": "detected",
+      "terms_source": "Ratio 1:1 and record date 08-Oct-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_25092026153938_Intimation_of_Record_Date-BIl.pdf; allotment of 3,34,96,434 Tieramet shares (FV Rs 2) on 09-Oct-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_09102026184624_Intimation_to_Se.pdf; NCLT sanction 07-Sep-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_07092026224341_BILReceiptoforderbyNCLT1.pdf; ex-date: NSE corporate actions (Demerger, ex/record 08-Oct-2026); cost split 89.36% Tieramet / 10.64% BIL (secondary only): https://forum.valuepickr.com/t/bhagyanagar-india-ltd-copper-recycling-play/218879?page=6 (reproduces company email to shareholders) and https://www.multibagg.ai/market-pulse/articles/bhagyanagar-india-tieramet-demerger-dates-cmv11xab5000j39qpkznej2h2",
+      "notes": "Composite scheme: Bhagyanagar Copper Pvt Ltd (unlisted, private) amalgamated into BIL (no event: public holders receive nothing), then BIL's copper business demerged into Tieramet Ltd. Cost split 89.36/10.64 comes from a company email to shareholders reproduced on ValuePickr and from Multibagg; no NSE/BSE filing of the apportionment was found, so status left detected. Tieramet not yet listed as of 2026-11-06 (listing application and Rule 19(2)(b) relaxation in progress); ticker/ISIN/listing_date unknown.",
+      "legs": [
+        {
+          "target_ticker": null,
+          "target_isin": null,
+          "target_name": "Tieramet Ltd",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "1:1",
+          "cost_share_pct": 89.36,
+          "listing_date": null,
+          "face_value": 2,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "ambuja-acc-2026",
+      "step": 1,
+      "kind": "MERGER",
+      "source_ticker": "ACC",
+      "source_isin": "INE012A01025",
+      "source_name": "ACC Ltd",
+      "source_aliases": [],
+      "source_continues": false,
+      "ex_date": null,
+      "record_date": null,
+      "last_trading_date": null,
+      "status": "detected",
+      "terms_source": "Ratio (328 Ambuja shares of Rs 2 for every 100 ACC shares of Rs 10, clause 3.3.1) and face value: scheme filed with NSE https://nsearchives.nseindia.com/corporates/offerdocument/scheme/AMBUJACEM_52856_Website_Ambuja__.zip (Draft_Scheme.pdf); ISINs: NSE corporate-actions API",
+      "notes": "Scheme of Amalgamation of ACC Ltd into Ambuja Cements Ltd (appointed date 2026-01-01), approved by boards Dec 2025; NCLT Ahmedabad convened shareholder meetings on 2026-09-29, approved by Ambuja shareholders (news). As of 2026-11-06 no NCLT sanction, record date or allotment found on NSE corporate actions, so ex/record/last-trading dates are null. Ambuja's own ACC shares to be cancelled. cost_share_pct 100 per merger rule. Same candidate also covered the separate Orient Cement-Ambuja scheme (event below).",
+      "legs": [
+        {
+          "target_ticker": "AMBUJACEM",
+          "target_isin": "INE079A01024",
+          "target_name": "Ambuja Cements Ltd",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "100:328",
+          "cost_share_pct": 100,
+          "listing_date": null,
+          "face_value": 2,
+          "cash_per_share": null
+        }
+      ]
+    },
+    {
+      "scheme": "ambuja-acc-2026",
+      "step": 1,
+      "kind": "MERGER",
+      "source_ticker": "ORIENTCEM",
+      "source_isin": "INE876N01018",
+      "source_name": "Orient Cement Ltd",
+      "source_aliases": [],
+      "source_continues": false,
+      "ex_date": null,
+      "record_date": null,
+      "last_trading_date": null,
+      "status": "detected",
+      "terms_source": "Ratio (33 Ambuja shares of Rs 2 for every 100 Orient Cement shares of Rs 1): valuation report in scheme filing on NSE https://nsearchives.nseindia.com/corporates/offerdocument/scheme/AMBUJACEM_52855_AMBUJA.zip (Annexure B, p.22; scheme PDF is scanned); ISINs: NSE corporate-actions API",
+      "notes": "Separate Scheme of Amalgamation of Orient Cement Ltd into Ambuja Cements Ltd (sections 230-232), approved by boards Dec 2025, announced together with the ACC merger; NCLT-convened Ambuja shareholder meeting 2026-09-28 (news). As of 2026-11-06 no NCLT sanction, record date or allotment found, so dates are null. Ratio read from the recommended fair share exchange ratio in the valuation report (scheme text is a scanned image); news (Business Today, Dec 2025) reports the same 33:100. Ambuja's existing holding in Orient to be cancelled. cost_share_pct 100 per merger rule. Legally a separate scheme from ACC; may become effective on a different date.",
+      "legs": [
+        {
+          "target_ticker": "AMBUJACEM",
+          "target_isin": "INE079A01024",
+          "target_name": "Ambuja Cements Ltd",
+          "target_aliases": [],
+          "instrument": "equity",
+          "ratio": "100:33",
+          "cost_share_pct": 100,
+          "listing_date": null,
+          "face_value": 2,
           "cash_per_share": null
         }
       ]

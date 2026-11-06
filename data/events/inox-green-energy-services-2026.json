@@ -1,0 +1,12 @@
+{"events": [
+ {"scheme": "inox-green-energy-services-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "INOXGREEN", "source_isin": "INE510W01014",
+  "source_name": "Inox Green Energy Services Ltd", "source_aliases": [],
+  "source_continues": true, "ex_date": "2026-07-31", "record_date": "2026-08-01",
+  "last_trading_date": null, "status": "detected",
+  "terms_source": "Ratio (122 IRSL for 1,000 IGESL, FV Rs 10) and record date 1 Aug 2026: https://nsearchives.nseindia.com/corporate/IGESL_22072026195858_IGESL_SE_intimation_regarding_NCLT_Record_date_dsc.pdf; ex-date 31-Jul-2026: NSE corporate actions API (symbol INOXGREEN, subject Demerger); allotment of 4,89,82,030 IRSL shares on 24 Aug 2026: https://nsearchives.nseindia.com/corporate/IGESL_24082026202300_IGESL_SE_intimation_Allotment_IRSL_24082026.pdf; effective date 4 May 2026: https://nsearchives.nseindia.com/corporate/IGESL_04052026182821_IGESL_SE_intimation_regarding_NCLT_effective_date_dsc.pdf",
+  "notes": "Demerger of the Power Evacuation Business of IGESL into Inox Renewable Solutions Ltd (IRSL, formerly Resco Global Wind Services Pvt Ltd; the candidate's Resco scheme filing is the same scheme). NCLT Ahmedabad sanctioned 13 Mar 2026; effective 4 May 2026; appointed date 1 Oct 2024. Record date is Saturday 1 Aug 2026; NSE lists ex-date Friday 31 Jul 2026 (NSE special pre-open that day). Scheme's warrant exchange ratio not applicable (no outstanding warrants). Missing: cost-of-acquisition apportionment not found; IRSL listing date, NSE symbol and ISIN not found (as of the 24 Aug 2026 allotment letter IRSL was still seeking listing approval).",
+  "legs": [{"target_ticker": null, "target_isin": null, "target_name": "Inox Renewable Solutions Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "1000:122", "cost_share_pct": null,
+            "listing_date": null, "face_value": 10, "cash_per_share": null}]}
+]}

@@ -1,0 +1,12 @@
+{"events": [
+ {"scheme": "bhagyanagar-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "BHAGYANGR", "source_isin": "INE458B01036",
+  "source_name": "Bhagyanagar India Ltd", "source_aliases": [],
+  "source_continues": true, "ex_date": "2026-10-08", "record_date": "2026-10-08",
+  "last_trading_date": null, "status": "detected",
+  "terms_source": "Ratio 1:1 and record date 08-Oct-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_25092026153938_Intimation_of_Record_Date-BIl.pdf; allotment of 3,34,96,434 Tieramet shares (FV Rs 2) on 09-Oct-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_09102026184624_Intimation_to_Se.pdf; NCLT sanction 07-Sep-2026: https://nsearchives.nseindia.com/corporate/BHAGYANGR_07092026224341_BILReceiptoforderbyNCLT1.pdf; ex-date: NSE corporate actions (Demerger, ex/record 08-Oct-2026); cost split 89.36% Tieramet / 10.64% BIL (secondary only): https://forum.valuepickr.com/t/bhagyanagar-india-ltd-copper-recycling-play/218879?page=6 (reproduces company email to shareholders) and https://www.multibagg.ai/market-pulse/articles/bhagyanagar-india-tieramet-demerger-dates-cmv11xab5000j39qpkznej2h2",
+  "notes": "Composite scheme: Bhagyanagar Copper Pvt Ltd (unlisted, private) amalgamated into BIL (no event: public holders receive nothing), then BIL's copper business demerged into Tieramet Ltd. Cost split 89.36/10.64 comes from a company email to shareholders reproduced on ValuePickr and from Multibagg; no NSE/BSE filing of the apportionment was found, so status left detected. Tieramet not yet listed as of 2026-11-06 (listing application and Rule 19(2)(b) relaxation in progress); ticker/ISIN/listing_date unknown.",
+  "legs": [{"target_ticker": null, "target_isin": null, "target_name": "Tieramet Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 89.36,
+            "listing_date": null, "face_value": 2, "cash_per_share": null}]}
+]}

@@ -1,0 +1,20 @@
+{"events": [
+ {"scheme": "ambuja-acc-2026", "step": 1, "kind": "MERGER",
+  "source_ticker": "ACC", "source_isin": "INE012A01025", "source_name": "ACC Ltd", "source_aliases": [],
+  "source_continues": false, "ex_date": null, "record_date": null, "last_trading_date": null,
+  "status": "detected",
+  "terms_source": "Ratio (328 Ambuja shares of Rs 2 for every 100 ACC shares of Rs 10, clause 3.3.1) and face value: scheme filed with NSE https://nsearchives.nseindia.com/corporates/offerdocument/scheme/AMBUJACEM_52856_Website_Ambuja__.zip (Draft_Scheme.pdf); ISINs: NSE corporate-actions API",
+  "notes": "Scheme of Amalgamation of ACC Ltd into Ambuja Cements Ltd (appointed date 2026-01-01), approved by boards Dec 2025; NCLT Ahmedabad convened shareholder meetings on 2026-09-29, approved by Ambuja shareholders (news). As of 2026-11-06 no NCLT sanction, record date or allotment found on NSE corporate actions, so ex/record/last-trading dates are null. Ambuja's own ACC shares to be cancelled. cost_share_pct 100 per merger rule. Same candidate also covered the separate Orient Cement-Ambuja scheme (event below).",
+  "legs": [{"target_ticker": "AMBUJACEM", "target_isin": "INE079A01024", "target_name": "Ambuja Cements Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "100:328", "cost_share_pct": 100,
+            "listing_date": null, "face_value": 2, "cash_per_share": null}]},
+ {"scheme": "ambuja-acc-2026", "step": 1, "kind": "MERGER",
+  "source_ticker": "ORIENTCEM", "source_isin": "INE876N01018", "source_name": "Orient Cement Ltd", "source_aliases": [],
+  "source_continues": false, "ex_date": null, "record_date": null, "last_trading_date": null,
+  "status": "detected",
+  "terms_source": "Ratio (33 Ambuja shares of Rs 2 for every 100 Orient Cement shares of Rs 1): valuation report in scheme filing on NSE https://nsearchives.nseindia.com/corporates/offerdocument/scheme/AMBUJACEM_52855_AMBUJA.zip (Annexure B, p.22; scheme PDF is scanned); ISINs: NSE corporate-actions API",
+  "notes": "Separate Scheme of Amalgamation of Orient Cement Ltd into Ambuja Cements Ltd (sections 230-232), approved by boards Dec 2025, announced together with the ACC merger; NCLT-convened Ambuja shareholder meeting 2026-09-28 (news). As of 2026-11-06 no NCLT sanction, record date or allotment found, so dates are null. Ratio read from the recommended fair share exchange ratio in the valuation report (scheme text is a scanned image); news (Business Today, Dec 2025) reports the same 33:100. Ambuja's existing holding in Orient to be cancelled. cost_share_pct 100 per merger rule. Legally a separate scheme from ACC; may become effective on a different date.",
+  "legs": [{"target_ticker": "AMBUJACEM", "target_isin": "INE079A01024", "target_name": "Ambuja Cements Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "100:33", "cost_share_pct": 100,
+            "listing_date": null, "face_value": 2, "cash_per_share": null}]}
+]}
