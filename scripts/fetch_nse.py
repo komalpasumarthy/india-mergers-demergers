@@ -2,16 +2,20 @@
 """Download NSE equity corporate actions and keep merger/demerger/scheme rows.
 
   pip install -r requirements.txt
-  python3 scripts/fetch_nse.py --from 2000 --to 2026
-Writes data/raw/nse_corp_actions.csv (normalised RAW_FIELDS) and the untouched API responses to
+  python3 scripts/fetch_nse.py --from 2000 --to 2026     # corporate actions (ex/record dates)
+  python3 scripts/fetch_nse.py --schemes                 # scheme-of-arrangement filings (2013+)
+Corporate actions: writes data/raw/nse_corp_actions.csv (normalised RAW_FIELDS) and the untouched API responses to
 data/raw/nse_corp_actions_<year>.json (git-ignored) so the field mapping can be checked.
 
 NSE's JSON API needs the cookies set by its home page and a browser-like User-Agent; it is
 rate-limited, so the script sleeps between calls. Endpoint (as used by the NSE website,
 Corporate Filings -> Corporate Actions):
   https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=DD-MM-YYYY&to_date=DD-MM-YYYY
-NOTE: written without network access to NSE from the authoring environment; verify the field
-names on the first run (see the saved JSON) and adjust FIELD_MAP if needed.
+Scheme filings (Reg. 37 draft schemes, Corporate Filings -> Scheme of Arrangement):
+  https://www.nseindia.com/api/corporates/offerdocs/arrangementscheme?index=equities
+  -> data/raw/nse_scheme_filings.csv. `ex_date` is empty; `year_hint` is the FILING year (the
+  scheme usually takes effect 1-2 years later). `company` is the listed filer, which may be the
+  acquirer rather than the company giving up shares.
 """
 import argparse
 import datetime as dt
@@ -53,8 +57,11 @@ def pick(row, keys):
 def session():
     s = requests.Session()
     s.headers.update(HEADERS)
-    s.get(BASE, timeout=30)
-    s.get(HEADERS["Referer"], timeout=30)
+    for u in (BASE, HEADERS["Referer"]):  # sets cookies; may 403 without hurting the API
+        try:
+            s.get(u, timeout=30)
+        except requests.RequestException:
+            pass
     return s
 
 
@@ -72,13 +79,37 @@ def fetch_range(s, start, end):
     return []
 
 
+SCHEMES_API = BASE + "/api/corporates/offerdocs/arrangementscheme"
+
+
+def scheme_filings(s):
+    r = s.get(SCHEMES_API, params={"index": "equities"}, timeout=120)
+    r.raise_for_status()
+    data = r.json()
+    (RAW / "nse_scheme_filings.json").write_text(json.dumps(data, indent=1))
+    out = []
+    for row in data:
+        text = " ".join((row.get("scheme_details") or "").split())
+        filed = iso_date(row.get("date") or "")
+        out.append(dict(source="nse-scheme-filings", exchange="NSE", company=row.get("company", ""),
+                        purpose=text, year_hint=filed[:4], record_date="",
+                        url=row.get("date_attachmnt") or ""))
+    path = RAW / "nse_scheme_filings.csv"
+    write_csv(path, sorted(out, key=lambda r: (r["year_hint"], r["company"])), RAW_FIELDS)
+    print(f"wrote {path} ({len(out)} filings)")
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--schemes", action="store_true", help="fetch scheme filings instead")
     ap.add_argument("--from", dest="y0", type=int, default=2000)
     ap.add_argument("--to", dest="y1", type=int, default=dt.date.today().year)
     ap.add_argument("--sleep", type=float, default=1.5)
     a = ap.parse_args()
     s = session()
+    if a.schemes:
+        scheme_filings(s)
+        return
     keep = {(r["symbol"], r["purpose"], r["ex_date"]): r for r in read_csv(OUT)}
     for year in range(a.y0, a.y1 + 1):
         raw_year = []

@@ -45,7 +45,11 @@ merger equity legs' `cost_share_pct` sum to 100, demerger legs to < 100.
 
 ## Workflow
 
-### Phase 1 — build the candidate list  ✅ scaffolded
+### Phase 1 — build the candidate list  ✅ done (BSE corporate actions still to add)
+
+Current list: **1,823 candidate rows** — 174 seed, 241 BSE mergers page, 163 NSE corporate
+actions, 1,078 NSE scheme filings as their own rows (plus listings merged into existing rows),
+167 auto-skipped wholly-owned-subsidiary schemes. See [`PROGRESS.md`](PROGRESS.md).
 
 ```bash
 pip install -r requirements.txt
@@ -61,6 +65,10 @@ python3 scripts/fetch_bse.py corp-actions --from 2000
 
 ```bash
 python3 scripts/fetch_nse.py --from 2000
+```
+
+```bash
+python3 scripts/fetch_nse.py --schemes
 ```
 
 ```bash
@@ -109,7 +117,13 @@ python3 -m unittest discover tests
 
 ## Caveats
 
+- Many NSE scheme filings are internal reorganisations, withdrawn schemes or re-filings of the
+  same scheme; agents mark those `skipped` / `duplicate`. Auto-skipped rows carry the note
+  `auto-wos` and can be re-opened with `scripts/set_status.py <id> pending`.
 - `data/raw/seed_knowledge.csv` is a hand-compiled starting list. Its names, years and
   groupings are **hints, not data**; research agents verify or reject each one.
-- The BSE/NSE fetch scripts were written without network access to those sites; check the raw
-  JSON they save on the first run and adjust their `FIELD_MAP` if the exchanges' APIs differ.
+- BSE's corporate-actions API (`api.bseindia.com`) refuses cloud/datacenter IPs (Akamai 403);
+  `fetch_bse.py corp-actions` must be run from a residential connection. The NSE scripts and
+  the BSE mergers page work from anywhere.
+- NSE corporate actions list few mergers (the merged company stops trading); mergers come mostly
+  from the BSE mergers page, NSE scheme filings and the seed list.
