@@ -1,0 +1,12 @@
+{"events": [
+ {"scheme": "hdfc-2023", "step": 1, "kind": "MERGER",
+  "source_ticker": "HDFC", "source_isin": "INE001A01036",
+  "source_name": "Housing Development Finance Corporation Ltd", "source_aliases": [],
+  "source_continues": false, "ex_date": "2023-07-13", "record_date": "2023-07-13",
+  "last_trading_date": "2023-07-12", "status": "complete",
+  "terms_source": "Ratio 42 HDFC Bank (FV Re 1) for 25 HDFC (FV Rs 2): https://nsearchives.nseindia.com/corporate/HDFC_04042022085440_SE_Intimation_Reg_30_040422.pdf; effective date 2023-07-01 and record date 2023-07-13: https://nsearchives.nseindia.com/corporate/HDFC_03072023123649_SE_Intimation_Effective_RecordDate_30062023.pdf; NSE corporate actions (symbol HDFC, 'Merger', record date 13-Jul-2023) and NSE notice of 04-Jul-2023 suspending HDFC equity trading w.e.f. 13-Jul-2023 (last trading day 12-Jul-2023). Cost 100% by merger rule.",
+  "notes": "Composite scheme: HDFC Investments Ltd and HDFC Holdings Ltd (unlisted wholly owned subsidiaries) first merged into HDFC Ltd (no public-holder event), then HDFC Ltd into HDFC Bank. Effective/appointed date 2023-07-01 is not the ex-date. T+1 regime so ex-date = record date (NSE listing shows no separate ex-date). NSE corporate-action API reports stale pre-split ISINs (HDFC INE001A01028, HDFCBANK INE040A01018); current ISINs INE001A01036 / INE040A01034 used (HDFCBANK ISIN per NSE circular CML42099, 2019 sub-division). HDFC warrants (INE001A13049) also moved to HDFC Bank; not modelled as a leg. Fractional entitlements paid in cash.",
+  "legs": [{"target_ticker": "HDFCBANK", "target_isin": "INE040A01034", "target_name": "HDFC Bank Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "25:42", "cost_share_pct": 100,
+            "listing_date": null, "face_value": 1, "cash_per_share": null}]}
+]}
