@@ -1,0 +1,12 @@
+{"events": [
+ {"scheme": "genus-power-infrastructures-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "GENUSPOWER", "source_isin": "INE955D01011",
+  "source_name": "Genus Power Infrastructures Limited", "source_aliases": [],
+  "source_continues": true, "ex_date": "2026-02-06", "record_date": "2026-02-06",
+  "last_trading_date": null, "status": "complete",
+  "terms_source": "Cost (GENUSPOWER 90.05%, Genus Prime 9.95%) and ratio: https://nsearchives.nseindia.com/corporate/GENUSPOWER_10042026181413_Disclosure_Cost_of_Acquisition_signed.pdf; ratio and record date: https://nsearchives.nseindia.com/corporate/GENUSPOWER_22012026154825_Disclosure_Signed.pdf; ex-date 06-Feb-2026: NSE corporate actions API (symbol GENUSPOWER, subject Demerger); allotment (5,07,76,631 shares on 2026-04-10): https://nsearchives.nseindia.com/corporate/GENUSPOWER_10042026211616_07DisclosureAllotmentofSharessigned.pdf",
+  "notes": "Demerger of the Strategic Investment Business of Genus Power into Genus Prime Infra Ltd (formerly Gulshan Chemfill Ltd), which was already listed on BSE only (scrip code 532425, scrip id GENUSPRIME, ISIN INE256D01014 per BSE quote page/third-party sites); new shares rank pari passu with existing ones, so listing_date null. NCLT Allahabad order 2025-04-24, effective 2025-06-07 (not the ex-date). Fractional entitlements rounded up to the next integer. The same composite scheme also amalgamated Sansar Infrastructure Pvt Ltd, Star Vanijya Pvt Ltd, Sunima Trading Pvt Ltd and Yajur Commodities Ltd (all unlisted promoter-group entities) into Genus Prime Infra; no events written for those since their holders are not public market holders.",
+  "legs": [{"target_ticker": "GENUSPRIME", "target_isin": "INE256D01014", "target_name": "Genus Prime Infra Limited",
+            "target_aliases": [], "instrument": "equity", "ratio": "6:1", "cost_share_pct": 9.95,
+            "listing_date": null, "face_value": 2, "cash_per_share": null}]}
+]}

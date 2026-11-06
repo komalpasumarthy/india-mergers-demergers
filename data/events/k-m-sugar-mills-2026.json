@@ -1,0 +1,12 @@
+{"events": [
+ {"scheme": "k-m-sugar-mills-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "KMSUGAR", "source_isin": "INE157H01023",
+  "source_name": "K.M. Sugar Mills Ltd", "source_aliases": [],
+  "source_continues": true, "ex_date": "2026-10-01", "record_date": "2026-10-02",
+  "last_trading_date": null, "status": "detected",
+  "terms_source": "Ratio (1 KM Spirits Rs10 share per 5 KMSUGAR Rs2 shares) and record date 2026-10-02: https://nsearchives.nseindia.com/corporate/KMSUGAR_19092026115553_REGULATION30ND42.pdf; ex-date 01-Oct-2026: NSE corporate actions API (symbol KMSUGAR); effective date 2026-10-01: https://nsearchives.nseindia.com/corporate/KMSUGAR_01102026233221_DEMERGERUPDATE.pdf; allotment of 1,84,00,034 shares on 2026-10-12: https://nsearchives.nseindia.com/corporate/KMSUGAR_12102026210608_INTIMATION.pdf",
+  "notes": "Demerger of Distillery Division into KM Spirits and Allied Industries Ltd (NCLT Allahabad order 2026-08-19; appointed date 2026-04-01). Record date 2026-10-02 fell on a market holiday (Gandhi Jayanti), so NSE shows ex-date 2026-10-01. Cost-of-acquisition apportionment not yet published (as of 2026-11-06); KM Spirits shares allotted 2026-10-12 but not yet listed on NSE/BSE, so target ticker/ISIN and listing date unknown.",
+  "legs": [{"target_ticker": null, "target_isin": null, "target_name": "KM Spirits and Allied Industries Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "5:1", "cost_share_pct": null,
+            "listing_date": null, "face_value": 10, "cash_per_share": null}]}
+]}

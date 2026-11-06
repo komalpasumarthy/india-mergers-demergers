@@ -1,0 +1,18 @@
+{"events": [
+ {"scheme": "heg-advanced-materials-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "HEGAM", "source_isin": "INE545A01024",
+  "source_name": "HEG Advanced Materials Limited (formerly HEG Limited)",
+  "source_aliases": ["HEG"],
+  "source_continues": true,
+  "ex_date": "2026-09-07", "record_date": "2026-09-07", "last_trading_date": null,
+  "status": "complete",
+  "terms_source": "Cost: https://nsearchives.nseindia.com/corporate/HEGAM_29092026191038_STEX_CostOfAcquisition29092026.pdf (HEG Advanced Materials 27.60%, HEG Graphite 72.40%; allotment 11-Sep-2026); ratio, effective date and record date: https://nsearchives.nseindia.com/corporate/HEG_24082026194638_FinalOutcome24082026.pdf; ex-date 07-Sep-2026: NSE corporate actions API (symbol HEGAM); name/symbol change HEG->HEGAM w.e.f. 22-Sep-2026: https://nsearchives.nseindia.com/corporate/smamodia_16092026174640_CML76359.pdf; resulting company renamed HEG Limited: https://nsearchives.nseindia.com/corporate/HEGAM_13102026153450_StEX_HEGGtoHEG__13102026.pdf",
+  "notes": "Composite Scheme (NCLT Indore order 13-Aug-2026, effective 01-Sep-2026): graphite electrode business of HEG Limited demerged into HEG Graphite Limited (1:1, FV Rs 2). Parent renamed HEG Advanced Materials Limited; NSE symbol HEG changed to HEGAM w.e.f. 22-Sep-2026 (ISIN unchanged). Resulting company HEG Graphite Limited renamed HEG Limited w.e.f. 12-Oct-2026 - beware: the name 'HEG Limited' now refers to the graphite company, and it may later take the symbol HEG. As of 2026-11-06 no listing/trading approval or ISIN found for the resulting company, so target_ticker, target_isin and listing_date are null. Same scheme also amalgamated Bhilwara Energy Limited (unlisted) into HEG at 7:8 (8 HEG shares of Rs 2 per 7 BEL shares of Rs 10); no event written for it as BEL was never listed.",
+  "legs": [
+   {"target_ticker": null, "target_isin": null,
+    "target_name": "HEG Limited (formerly HEG Graphite Limited)",
+    "target_aliases": [],
+    "instrument": "equity", "ratio": "1:1", "cost_share_pct": 72.4,
+    "listing_date": null, "face_value": 2, "cash_per_share": null}
+  ]}
+]}
