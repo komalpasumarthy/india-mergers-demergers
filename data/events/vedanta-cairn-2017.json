@@ -1,0 +1,18 @@
+{"events": [
+ {"scheme": "vedanta-cairn-2017", "step": 1, "kind": "MERGER",
+  "source_ticker": "CAIRN", "source_isin": "INE910H01017",
+  "source_name": "Cairn India Ltd", "source_aliases": [],
+  "source_continues": false,
+  "ex_date": "2017-04-26", "record_date": "2017-04-27", "last_trading_date": "2017-04-25",
+  "status": "complete",
+  "terms_source": "Ratio (1 equity share of Re 1 + 4 preference shares of Rs 10 per Cairn share), record date 27-Apr-2017 and allotment on 28-Apr-2017: Vedanta allotment letter to NSE/BSE https://nsearchives.nseindia.com/corporate/VEDLOutcomeOfAllotmentCommitteeMeeting28April2017_28042017140052_171.zip; record date intimation: https://nsearchives.nseindia.com/corporate/VEDLEffectivenessOfMerger_12042017180423.zip; scheme effective 11-Apr-2017: https://nsearchives.nseindia.com/corporate/VEDLEffectivenessOfMerger_11042017190432_700.zip; NSE notice (13-Apr-2017) suspending trading in Cairn India w.e.f. 26-Apr-2017 i.e. closing hours of 25-Apr-2017, and NSE corporate-actions API (CAIRN 'Scheme Of Arrangement' ex-date 27-Apr-2017); preference ISIN INE205A04011 from NSE notice of 15-Oct-2018 suspending trading in the preference shares for redemption.",
+  "notes": "Scheme of Arrangement between Cairn India and Vedanta (NCLT Mumbai order 23-Mar-2017, effective 11-Apr-2017); terms are the revised July 2016 terms (1 equity + 4 RPS), not the original 2015 terms (1 equity + 1 RPS) in the 2015 NSE scheme filing. Ex-date set to 26-Apr-2017 by the T+2 rule (one trading day before record date 27-Apr-2017), consistent with NSE suspending Cairn trading w.e.f. 26-Apr-2017; the NSE corporate-actions API lists the ex-date as 27-Apr-2017 (the record date) since no trading occurred. Shares held by Vedanta and its subsidiaries were not exchanged. Preference shares: 7.5% non-cumulative non-convertible redeemable, Rs 10 face value, 18-month tenure, listed on NSE/BSE, redeemed Oct 2018 (record date 22-Oct-2018); their listing date was not confirmed (null). No company cost-of-acquisition split between equity and preference shares was found, so equity gets 100 and preference 0 per the filling rules. Vedanta was formerly Sesa Sterlite / Sesa Goa.",
+  "legs": [
+   {"target_ticker": "VEDL", "target_isin": "INE205A01025", "target_name": "Vedanta Ltd",
+    "target_aliases": ["SSLT", "SESAGOA"], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 100,
+    "listing_date": null, "face_value": 1, "cash_per_share": null},
+   {"target_ticker": "VEDL", "target_isin": "INE205A04011", "target_name": "Vedanta Ltd 7.5% Non-Cumulative Non-Convertible Redeemable Preference Shares",
+    "target_aliases": [], "instrument": "preference", "ratio": "1:4", "cost_share_pct": 0,
+    "listing_date": null, "face_value": 10, "cash_per_share": null}
+  ]}
+]}

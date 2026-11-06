@@ -1,0 +1,722 @@
+[
+ {
+  "candidate_id": "c1496",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Sammaan Capital",
+  "counterparty": "UNKNOWN",
+  "reason": "Text vague; scheme structure not stated"
+ },
+ {
+  "candidate_id": "c1497",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Antelopus Energy Pvt",
+  "counterparty": "Selan Exploration Technology",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1498",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Sequent Scientific",
+  "counterparty": "Viyash",
+  "reason": "Composite amalgamation; listed Sequent holders may receive shares"
+ },
+ {
+  "candidate_id": "c1500",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Silverleaf Capital Services Pvt",
+  "counterparty": "Share India Securities",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1501",
+  "verdict": "research",
+  "kind_hint": "MIXED",
+  "source_company": "Kurlon / Belvedore group companies",
+  "counterparty": "Sheela Foam",
+  "reason": "Multi-step amalgamation; share issuance to holders unclear"
+ },
+ {
+  "candidate_id": "c1502",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Siyaram Silk Mills",
+  "counterparty": "Siyaram Silk Mills",
+  "reason": "Bonus preference shares issued to holders; not clearly capital restructuring"
+ },
+ {
+  "candidate_id": "c1505",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Spacenet Enterprises India",
+  "counterparty": "Winteg People Solutions",
+  "reason": "Demerger; holders receive resulting company shares"
+ },
+ {
+  "candidate_id": "c1506",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Haryana Ispat Pvt",
+  "counterparty": "Sterling Tools",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1508",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Starlight Systems Pvt",
+  "counterparty": "Sunteck Realty",
+  "reason": "Private companies merging into listed filer"
+ },
+ {
+  "candidate_id": "c1509",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Supreme Infrastructure India",
+  "counterparty": "Financial creditors",
+  "reason": "Compromise with creditors; no merger or demerger"
+ },
+ {
+  "candidate_id": "c1510",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Cohance Lifesciences",
+  "counterparty": "Suven Pharmaceuticals",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1511",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Cohance Lifesciences",
+  "counterparty": "Suven Pharmaceuticals",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1512",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Casper Pharma Pvt",
+  "counterparty": "Suven Pharmaceuticals",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1513",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "SGS Infosystems Pvt",
+  "counterparty": "Syrma SGS Technology",
+  "reason": "Private companies merging into listed filer"
+ },
+ {
+  "candidate_id": "c1514",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "TCNS Clothing",
+  "counterparty": "Aditya Birla Fashion and Retail",
+  "reason": "Listed TCNS merges into ABFRL"
+ },
+ {
+  "candidate_id": "c1515",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "LP Logistics Plus Chemical SCM Pvt",
+  "counterparty": "Trejhara Solutions",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1516",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "TVS Investments Pvt",
+  "counterparty": "TVS Electronics",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1517",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "TVS Investments Pvt",
+  "counterparty": "TVS Electronics",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1518",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "TVS Investments Pvt",
+  "counterparty": "TVS Electronics",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1519",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Tata Motors Finance",
+  "counterparty": "Tata Capital",
+  "reason": "Unlisted subsidiary merging into unlisted parent"
+ },
+ {
+  "candidate_id": "c1522",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Texmaco Rail & Engineering",
+  "counterparty": "Belgharia Engineering Udyog",
+  "reason": "Direction and consideration unclear; listed filer may transfer business"
+ },
+ {
+  "candidate_id": "c1523",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Mahogany Logistics etc.",
+  "counterparty": "TVS Supply Chain Solutions",
+  "reason": "Unlisted companies merging into listed filer"
+ },
+ {
+  "candidate_id": "c1524",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Scrabble Digital / UFO Software",
+  "counterparty": "UFO Moviez India",
+  "reason": "Subsidiaries merging into listed filer"
+ },
+ {
+  "candidate_id": "c1525",
+  "verdict": "research",
+  "kind_hint": "MIXED",
+  "source_company": "Udaipur Cement Works",
+  "counterparty": "JK Lakshmi Cement",
+  "reason": "Composite amalgamation involving listed Udaipur Cement Works"
+ },
+ {
+  "candidate_id": "c1527",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Utkarsh CoreInvest",
+  "counterparty": "Utkarsh Small Finance Bank",
+  "reason": "Listed holding company merges into subsidiary bank"
+ },
+ {
+  "candidate_id": "c1529",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Medinova Diagnostic Services",
+  "counterparty": "Vijaya Diagnostic Centre",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1531",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "UNKNOWN",
+  "counterparty": "Vipul Limited",
+  "reason": "Vague amalgamation text"
+ },
+ {
+  "candidate_id": "c1532",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "UNKNOWN",
+  "counterparty": "Wipro",
+  "reason": "Vague amalgamation and merger text; parties not named"
+ },
+ {
+  "candidate_id": "c1533",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "UNKNOWN",
+  "counterparty": "Yatra Online",
+  "reason": "Vague composite amalgamation text"
+ },
+ {
+  "candidate_id": "c1534",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "3i Infotech Consultancy Services etc.",
+  "counterparty": "3i Infotech",
+  "reason": "Subsidiaries merging into listed filer"
+ },
+ {
+  "candidate_id": "c1535",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Mandawewala Enterprises Pvt",
+  "counterparty": "AYM Syntex",
+  "reason": "Private promoter company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1538",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Aesthetik Engineers",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague scheme of arrangement"
+ },
+ {
+  "candidate_id": "c1539",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Wholly-owned subsidiary",
+  "counterparty": "Allied Blenders and Distillers",
+  "reason": "Wholly-owned subsidiary merging into listed parent"
+ },
+ {
+  "candidate_id": "c1540",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Almondz Global Securities",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1541",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Almondz Global Securities",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1542",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Penna Cement Industries",
+  "counterparty": "Ambuja Cements",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1543",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "AG Enviro Infra Projects Pvt",
+  "counterparty": "Antony Waste Handling Cell",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1544",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Apollo Hospitals Enterprise",
+  "counterparty": "Apollo Healthtech",
+  "reason": "Demerger; holders receive resultant company shares and listing"
+ },
+ {
+  "candidate_id": "c1545",
+  "verdict": "research",
+  "kind_hint": "MIXED",
+  "source_company": "Arihant Capital Markets",
+  "counterparty": "Arihant Elite Financial Solutions",
+  "reason": "Composite scheme with demerger and mergers"
+ },
+ {
+  "candidate_id": "c1546",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Oilmax Energy Pvt",
+  "counterparty": "Asian Energy Services",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1547",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "AP Polymers",
+  "counterparty": "Asian Paints",
+  "reason": "Subsidiary merging into listed filer"
+ },
+ {
+  "candidate_id": "c1548",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Quality Care India",
+  "counterparty": "Aster DM Healthcare",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1549",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Avonmore Capital",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1550",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Avonmore Capital",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1551",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "B.N. Agritech / A1 Agri Global",
+  "counterparty": "BN Agrochem",
+  "reason": "Listed B N Agritech merges into BN Agrochem"
+ },
+ {
+  "candidate_id": "c1552",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "B.N. Agritech / A1 Agri Global",
+  "counterparty": "BN Agrochem",
+  "reason": "Listed B N Agritech merges into BN Agrochem"
+ },
+ {
+  "candidate_id": "c1553",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "BASF India",
+  "counterparty": "BASF Agricultural Solutions India",
+  "reason": "Demerger; BASF India holders receive resulting company shares"
+ },
+ {
+  "candidate_id": "c1554",
+  "verdict": "skip",
+  "kind_hint": "DEMERGER",
+  "source_company": "Vishal Personal Care",
+  "counterparty": "Bajaj Consumer Care",
+  "reason": "Unlisted company demerged into listed filer"
+ },
+ {
+  "candidate_id": "c1555",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Beacon Trusteeship",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague scheme of arrangement"
+ },
+ {
+  "candidate_id": "c1556",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "H-One India Pvt",
+  "counterparty": "Belrise Industries",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1557",
+  "verdict": "research",
+  "kind_hint": "MIXED",
+  "source_company": "WIM Plast",
+  "counterparty": "Cello World",
+  "reason": "Composite scheme involving listed WIM Plast"
+ },
+ {
+  "candidate_id": "c1558",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cigniti Technologies",
+  "counterparty": "Coforge",
+  "reason": "Listed Cigniti merges into Coforge"
+ },
+ {
+  "candidate_id": "c1559",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cigniti Technologies",
+  "counterparty": "Coforge",
+  "reason": "Listed Cigniti merges into Coforge"
+ },
+ {
+  "candidate_id": "c1560",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Concord Enviro Systems",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague revised scheme of arrangement"
+ },
+ {
+  "candidate_id": "c1561",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Concord Enviro Systems",
+  "counterparty": "Concord Enviro Systems",
+  "reason": "Capital reduction under sections 52 and 66"
+ },
+ {
+  "candidate_id": "c1562",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Crest Ventures",
+  "counterparty": "Crest Capital and Investment",
+  "reason": "Demerger; holders receive resulting company shares"
+ },
+ {
+  "candidate_id": "c1563",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Dhrangadhara Trading Co Pvt",
+  "counterparty": "DCW",
+  "reason": "Private companies merging into listed filer"
+ },
+ {
+  "candidate_id": "c1564",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Sesa Care Pvt",
+  "counterparty": "Dabur India",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1565",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Deep Industries",
+  "counterparty": "Kandla Energy and Chemicals",
+  "reason": "Listed Deep Industries merges into Kandla Energy"
+ },
+ {
+  "candidate_id": "c1566",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Delta Corp",
+  "counterparty": "Deltin Hotel & Resorts",
+  "reason": "Revised composite scheme; structure unclear"
+ },
+ {
+  "candidate_id": "c1567",
+  "verdict": "skip",
+  "kind_hint": "DEMERGER",
+  "source_company": "Reid & Taylor International Pvt",
+  "counterparty": "Digjam",
+  "reason": "Private company's undertaking demerged into listed filer"
+ },
+ {
+  "candidate_id": "c1568",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Diligent Media Corporation",
+  "counterparty": "Diligent Media Corporation",
+  "reason": "Reduction of preference share capital only"
+ },
+ {
+  "candidate_id": "c1569",
+  "verdict": "skip",
+  "kind_hint": "MIXED",
+  "source_company": "Dindayal Texpro Pvt",
+  "counterparty": "Dollar Industries",
+  "reason": "Private companies merging or demerging into listed filer"
+ },
+ {
+  "candidate_id": "c1570",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Dr. Agarwal's Eye Hospital",
+  "counterparty": "Dr. Agarwal's Health Care",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1571",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Metawear",
+  "counterparty": "Future Market Networks",
+  "reason": "Listing status and consideration unclear"
+ },
+ {
+  "candidate_id": "c1572",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "GATIL Properties Pvt",
+  "counterparty": "Ganesh Housing",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1573",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "GB Global",
+  "counterparty": "Dev Land & Housing Pvt",
+  "reason": "Listed GB Global merges into private company"
+ },
+ {
+  "candidate_id": "c1574",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "GB Global",
+  "counterparty": "Dev Land & Housing Pvt",
+  "reason": "Listed GB Global merges into private company"
+ },
+ {
+  "candidate_id": "c1575",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "GE Power India",
+  "counterparty": "JSW Energy",
+  "reason": "Demerger; GE Power holders receive JSW Energy shares"
+ },
+ {
+  "candidate_id": "c1576",
+  "verdict": "skip",
+  "kind_hint": "MIXED",
+  "source_company": "Asia Investments Pvt",
+  "counterparty": "Gabriel India",
+  "reason": "Private promoter companies merging or demerging into listed filer"
+ },
+ {
+  "candidate_id": "c1577",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Godawari Energy",
+  "counterparty": "Godawari Power and Ispat",
+  "reason": "Subsidiary merging into listed filer"
+ },
+ {
+  "candidate_id": "c1578",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Embellish Houses Pvt",
+  "counterparty": "Godrej Properties",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1579",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "BRFL Textiles Pvt",
+  "counterparty": "Gokaldas Exports",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1580",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Gujarat Fluorochemicals",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1581",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "HEG Limited",
+  "counterparty": "HEG Graphite / Bhilwara Energy",
+  "reason": "Composite arrangement among listed HEG and group; unclear"
+ },
+ {
+  "candidate_id": "c1585",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Hindware Home Innovation",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague composite scheme"
+ },
+ {
+  "candidate_id": "c1586",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Distinctive Realty / Amazia Developers Pvt",
+  "counterparty": "Hubtown",
+  "reason": "Private companies merging into listed filer"
+ },
+ {
+  "candidate_id": "c1587",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "25 West Realty Pvt",
+  "counterparty": "Hubtown",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1588",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Saicharan Consultancy Pvt",
+  "counterparty": "Hubtown",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1589",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "UNKNOWN",
+  "counterparty": "Hybrid Financial Services",
+  "reason": "Parent-subsidiary merger; listing and consideration unclear"
+ },
+ {
+  "candidate_id": "c1590",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Enertech Distribution Management Pvt",
+  "counterparty": "IRM Energy",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1591",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Enertech Distribution Management Pvt",
+  "counterparty": "IRM Energy",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1592",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Indo Thai Securities",
+  "counterparty": "Indo Thai Financial Services",
+  "reason": "Demerger; holders receive resulting company shares"
+ },
+ {
+  "candidate_id": "c1597",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Inventure Growth & Securities",
+  "counterparty": "UNKNOWN",
+  "reason": "Vague scheme of arrangement"
+ },
+ {
+  "candidate_id": "c1598",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "JB Chemicals & Pharmaceuticals",
+  "counterparty": "Torrent Pharmaceuticals",
+  "reason": "Listed JB Chemicals merges into Torrent"
+ },
+ {
+  "candidate_id": "c1599",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Toshali Cements Pvt",
+  "counterparty": "JK Cement",
+  "reason": "Private company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1600",
+  "verdict": "research",
+  "kind_hint": "MIXED",
+  "source_company": "Enviro Tech Ventures",
+  "counterparty": "JK Paper",
+  "reason": "Composite scheme with demerger and mergers"
+ },
+ {
+  "candidate_id": "c1601",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "GE Power India",
+  "counterparty": "JSW Energy",
+  "reason": "Demerger; GE Power holders receive JSW Energy shares"
+ },
+ {
+  "candidate_id": "c1602",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Piombino Steel",
+  "counterparty": "JSW Steel",
+  "reason": "Unlisted company merging into listed filer"
+ },
+ {
+  "candidate_id": "c1603",
+  "verdict": "skip",
+  "kind_hint": "MERGER",
+  "source_company": "Amba River Coke etc.",
+  "counterparty": "JSW Steel",
+  "reason": "Subsidiaries merging into listed filer"
+ }
+]
