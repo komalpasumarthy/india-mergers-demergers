@@ -1,0 +1,21 @@
+{"events": [
+ {"scheme": "hdfc-2023", "step": 1, "kind": "MERGER",
+  "source_ticker": "HDFC", "source_isin": "INE001A01036",
+  "source_name": "Housing Development Finance Corporation Ltd", "source_aliases": [],
+  "source_continues": false, "ex_date": "2023-07-13", "record_date": "2023-07-13",
+  "last_trading_date": "2023-07-12", "status": "complete",
+  "terms_source": "Ratio and record date: https://example.invalid/placeholder", "notes": "Format example from prompts/filling_rules.md; not research output.",
+  "legs": [{"target_ticker": "HDFCBANK", "target_isin": "INE040A01034", "target_name": "HDFC Bank Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "25:42", "cost_share_pct": 100,
+            "listing_date": null, "face_value": 1, "cash_per_share": null}]},
+ {"scheme": "abfrl-2025", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "ABFRL", "source_isin": "INE647O01011",
+  "source_name": "Aditya Birla Fashion and Retail Ltd", "source_aliases": [],
+  "source_continues": true, "ex_date": "2025-05-22", "record_date": "2025-05-22",
+  "last_trading_date": null, "status": "complete",
+  "terms_source": "Cost: https://example.invalid/cost (ABFRL 75.68%, ABLBL 24.32%); ratio and dates: https://example.invalid/ratio",
+  "notes": "Format example from prompts/filling_rules.md; not research output.",
+  "legs": [{"target_ticker": "ABLBL", "target_isin": null, "target_name": "Aditya Birla Lifestyle Brands Ltd",
+            "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 24.32,
+            "listing_date": "2025-06-23", "face_value": 10, "cash_per_share": null}]}
+]}
