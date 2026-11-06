@@ -33,6 +33,10 @@ def main():
     ap.add_argument("--prompt", metavar="SCHEME")
     ap.add_argument("--retry-detected", action="store_true",
                     help="also pick schemes whose status is 'detected'")
+    ap.add_argument("--skip-only-from", metavar="SOURCE",
+                    help="ignore schemes discovered only via this source (e.g. nse-scheme-filings)")
+    ap.add_argument("--write-prompts", metavar="DIR",
+                    help="write DIR/prompt_<scheme>.md for each picked scheme")
     a = ap.parse_args()
     rows = read_csv(CANDIDATES)
     by_scheme = {}
@@ -44,11 +48,17 @@ def main():
         print(render_prompt(a.prompt, by_scheme[a.prompt]))
         return
     want = {"pending"} | ({"detected"} if a.retry_detected else set())
-    ready = [s for s, rs in by_scheme.items() if all(r["status"] in want for r in rs)]
+    ready = [s for s, rs in by_scheme.items() if all(r["status"] in want for r in rs)
+             and not (a.skip_only_from and all(r["discovered_via"] == a.skip_only_from
+                                               for r in rs))]
     ready.sort(key=lambda s: (-int(by_scheme[s][0]["year_hint"] or 0), s))
     pick = ready[: a.n]
     for s in pick:
         print(s)
+        if a.write_prompts:
+            d = Path(a.write_prompts)
+            d.mkdir(parents=True, exist_ok=True)
+            (d / f"prompt_{s}.md").write_text(render_prompt(s, by_scheme[s]), encoding="utf-8")
     if a.claim:
         for r in rows:
             if r["scheme"] in pick:
