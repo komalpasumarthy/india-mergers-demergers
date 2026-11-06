@@ -1,0 +1,23 @@
+{"events": [
+ {"scheme": "vedanta-2026", "step": 1, "kind": "DEMERGER",
+  "source_ticker": "VEDL", "source_isin": "INE205A01025", "source_name": "Vedanta Ltd",
+  "source_aliases": [], "source_continues": true,
+  "ex_date": "2026-04-30", "record_date": "2026-05-01", "last_trading_date": null,
+  "status": "complete",
+  "terms_source": "Cost split (VEDL 52.34%, VAML 7.15%, TSPL/Vedanta Power 12.23%, MEL/Vedanta Oil and Gas 21.49%, VISL 6.79%): https://nsearchives.nseindia.com/corporate/VEDL_16052026123241_VEDLSEIntimationCostofApportionmentsigned.pdf; ratios, face values and record date: https://nsearchives.nseindia.com/corporate/VEDL_20042026170932_VEDLSEIntimationRecordDate20April2026signed.pdf; ex-date: NSE corporate actions API (VEDL 'Demerger', ex 30-Apr-2026, record 01-May-2026); symbols, ISINs and listing date 15-Jun-2026: https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv; renames: https://nsearchives.nseindia.com/corporate/VEDL_03062026182617_VEDLSEIntimationTSPLNameChangefinalsigned.pdf and https://nsearchives.nseindia.com/corporate/VEDL_09062026163050_VEDLSEIntimationMELNameChangefinalsinged.pdf",
+  "notes": "Composite scheme (NCLT Mumbai orders 16-Dec-2025 and 09-Jan-2026), effective and appointed date 01-May-2026. Ex-date (30-Apr) is one day before record date (01-May) per NSE listing, likely because 01-May was a market holiday. Talwandi Sabo Power Ltd renamed Vedanta Power Ltd w.e.f. 03-Jun-2026; Malco Energy Ltd renamed Vedanta Oil and Gas Ltd w.e.f. 09-Jun-2026 (neither was listed under the old names). An earlier draft scheme also included Vedanta Base Metals Ltd as a fifth resulting company; it was dropped from the sanctioned scheme. The separate Vedanta Property Platforms Ltd scheme is a different scheme, not part of this event. Aluminium-undertaking NCDs transferred to VAML (not an equity holder entitlement).",
+  "legs": [
+   {"target_ticker": "VAML", "target_isin": "INE1CDF01017", "target_name": "Vedanta Aluminium Metal Ltd",
+    "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 7.15,
+    "listing_date": "2026-06-15", "face_value": 1, "cash_per_share": null},
+   {"target_ticker": "VEDPOWER", "target_isin": "INE694L01019", "target_name": "Vedanta Power Ltd (formerly Talwandi Sabo Power Ltd)",
+    "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 12.23,
+    "listing_date": "2026-06-15", "face_value": 10, "cash_per_share": null},
+   {"target_ticker": "VOGL", "target_isin": "INE704J01044", "target_name": "Vedanta Oil and Gas Ltd (formerly Malco Energy Ltd)",
+    "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 21.49,
+    "listing_date": "2026-06-15", "face_value": 1, "cash_per_share": null},
+   {"target_ticker": "VISL", "target_isin": "INE1CLE01013", "target_name": "Vedanta Iron and Steel Ltd",
+    "target_aliases": [], "instrument": "equity", "ratio": "1:1", "cost_share_pct": 6.79,
+    "listing_date": "2026-06-15", "face_value": 1, "cash_per_share": null}
+  ]}
+]}

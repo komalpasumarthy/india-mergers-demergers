@@ -1,0 +1,722 @@
+[
+ {
+  "candidate_id": "c0579",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "AIA Engineering Limited",
+  "counterparty": "",
+  "reason": "Unlisted subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0580",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Lloyds Line Pipes Limited",
+  "counterparty": "APL Apollo Tubes Limited",
+  "reason": "Two companies amalgamating; listing status unclear"
+ },
+ {
+  "candidate_id": "c0581",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Zion Steel / Orissa Manganese",
+  "counterparty": "Adhunik Metaliks Limited",
+  "reason": "Three-way amalgamation, unclear shareholders"
+ },
+ {
+  "candidate_id": "c0582",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Holcim (India) Private Limited",
+  "counterparty": "Ambuja Cements Limited",
+  "reason": "Share issuance to Holcim India holders unclear"
+ },
+ {
+  "candidate_id": "c0583",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Arshiya International Limited",
+  "counterparty": "",
+  "reason": "Creditors compromise only"
+ },
+ {
+  "candidate_id": "c0584",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Ashok Leyland Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0585",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Asian Hotels (East) Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0586",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Aurobindo Pharma Limited",
+  "counterparty": "Curepro Parenterals Limited",
+  "reason": "Arrangement with shareholders; possible demerger"
+ },
+ {
+  "candidate_id": "c0587",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cades Digitech Private Limited",
+  "counterparty": "Axis-IT&T Limited",
+  "reason": "Private company arrangement; share issue unclear"
+ },
+ {
+  "candidate_id": "c0588",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Bharti Airtel Limited",
+  "counterparty": "",
+  "reason": "Private subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0589",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Birla Corporation Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0590",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Cadila Healthcare Limited",
+  "counterparty": "",
+  "reason": "Subsidiaries merging into filer"
+ },
+ {
+  "candidate_id": "c0591",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cinemax India Limited",
+  "counterparty": "PVR Limited",
+  "reason": "Two listed companies merging"
+ },
+ {
+  "candidate_id": "c0592",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "I Media Corp Limited",
+  "counterparty": "D.B. Corp Limited",
+  "reason": "Demerger; I Media holders receive DB Corp shares"
+ },
+ {
+  "candidate_id": "c0593",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Delta Corp Limited",
+  "counterparty": "",
+  "reason": "Private group companies merging into filer"
+ },
+ {
+  "candidate_id": "c0594",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "EID Parry India Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0595",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Sriyam Impex Private Limited",
+  "counterparty": "Ester Industries Limited",
+  "reason": "Private company merging; share issue unclear"
+ },
+ {
+  "candidate_id": "c0596",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Everonn Education Limited",
+  "counterparty": "",
+  "reason": "Creditors compromise only"
+ },
+ {
+  "candidate_id": "c0597",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Gallantt Udyog Limited",
+  "counterparty": "Gallantt Ispat Limited",
+  "reason": "Group company listing status unclear"
+ },
+ {
+  "candidate_id": "c0598",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Gammon Infrastructure Projects Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0599",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Godrej Properties Limited",
+  "counterparty": "",
+  "reason": "Subsidiaries merging into filer"
+ },
+ {
+  "candidate_id": "c0600",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Grindwell Norton Limited",
+  "counterparty": "",
+  "reason": "Group affiliates merging into filer"
+ },
+ {
+  "candidate_id": "c0601",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "HCL Infosystems Limited",
+  "counterparty": "HCL Infocom Limited",
+  "reason": "Multi-company arrangement, unclear"
+ },
+ {
+  "candidate_id": "c0602",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Hindustan Motors Limited",
+  "counterparty": "Hindustan Motor Finance Corporation",
+  "reason": "Arrangement between two companies, unclear"
+ },
+ {
+  "candidate_id": "c0603",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Wimco Limited",
+  "counterparty": "ITC Limited",
+  "reason": "Listed Wimco merging into ITC"
+ },
+ {
+  "candidate_id": "c0604",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "India Infoline Limited",
+  "counterparty": "India Infoline Distribution Company",
+  "reason": "Arrangement with shareholders, possible demerger"
+ },
+ {
+  "candidate_id": "c0605",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "JK Enviro-Tech Limited",
+  "counterparty": "JK Paper Limited",
+  "reason": "Transferor status unclear"
+ },
+ {
+  "candidate_id": "c0606",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "KPIT Cummins Infosystems Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0607",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "KPIT Global Solutions Limited",
+  "counterparty": "KPIT Technologies Limited",
+  "reason": "Transferor listing status unclear"
+ },
+ {
+  "candidate_id": "c0608",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Kolte - Patil Developers Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0609",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Larsen & Toubro Limited",
+  "counterparty": "",
+  "reason": "Transfer to wholly-owned subsidiary"
+ },
+ {
+  "candidate_id": "c0610",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Liberty Retail Revolutions Limited",
+  "counterparty": "Liberty Shoes Limited",
+  "reason": "Transferor ownership unclear"
+ },
+ {
+  "candidate_id": "c0611",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Mahindra Trucks and Buses Limited",
+  "counterparty": "Mahindra & Mahindra Limited",
+  "reason": "Transferor shareholders unclear"
+ },
+ {
+  "candidate_id": "c0612",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Mahindra Holidays & Resorts India Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0613",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Mahindra Hinoday / Mahindra Gears",
+  "counterparty": "Mahindra Ugine Steel Company",
+  "reason": "Integrated multi-company amalgamation"
+ },
+ {
+  "candidate_id": "c0614",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "MAN Industries (India) Limited",
+  "counterparty": "MAN Infraprojects Limited",
+  "reason": "Arrangement likely demerger"
+ },
+ {
+  "candidate_id": "c0615",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Mphasis Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0616",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cinemax India Limited",
+  "counterparty": "PVR Limited",
+  "reason": "Two listed companies merging"
+ },
+ {
+  "candidate_id": "c0617",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Rane Diecast Limited",
+  "counterparty": "Rane (Madras) Limited",
+  "reason": "Transferor ownership unclear"
+ },
+ {
+  "candidate_id": "c0618",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Reliance Infrastructure Limited",
+  "counterparty": "",
+  "reason": "Private companies merging into filer"
+ },
+ {
+  "candidate_id": "c0619",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Reliance Power Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0620",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Axiom Cordages Limited",
+  "counterparty": "Responsive Industries Limited",
+  "reason": "Transferor possibly listed"
+ },
+ {
+  "candidate_id": "c0621",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "SRS Limited",
+  "counterparty": "SRS Cinemas & Entertainment",
+  "reason": "Arrangement among three companies, unclear"
+ },
+ {
+  "candidate_id": "c0622",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Saksoft Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0623",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Shree Renuka Sugars Limited",
+  "counterparty": "",
+  "reason": "Foreign wholly-owned subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0624",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Sita Shree Food Products Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0625",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Sona Stampings Limited",
+  "counterparty": "Sona Koyo Steerings Systems",
+  "reason": "Two companies amalgamating, unclear"
+ },
+ {
+  "candidate_id": "c0626",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Surya Kiran International Limited",
+  "counterparty": "Suryalakshmi Cotton Mills",
+  "reason": "Transferor status unclear"
+ },
+ {
+  "candidate_id": "c0627",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Triveni Bialetti Industries Pvt",
+  "counterparty": "TTK Prestige Limited",
+  "reason": "Arrangement; share issue unclear"
+ },
+ {
+  "candidate_id": "c0628",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Tata Chemicals Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0629",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Tata Coffee Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0630",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Tata Communications Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0631",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Mount Everest Mineral Water Limited",
+  "counterparty": "Tata Global Beverages",
+  "reason": "Transferor possibly listed"
+ },
+ {
+  "candidate_id": "c0632",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Tata Metaliks Limited",
+  "counterparty": "Tata Steel Limited",
+  "reason": "Listed Tata Metaliks merging with Tata Steel"
+ },
+ {
+  "candidate_id": "c0633",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Kalimati Investment Company",
+  "counterparty": "Tata Steel Limited",
+  "reason": "Transferor shareholders unclear"
+ },
+ {
+  "candidate_id": "c0634",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Tata Metaliks Limited",
+  "counterparty": "Tata Steel Limited",
+  "reason": "Listed Tata Metaliks merging with Tata Steel"
+ },
+ {
+  "candidate_id": "c0635",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Mahindra Engineering Services",
+  "counterparty": "Tech Mahindra Limited",
+  "reason": "Transferor shareholders unclear"
+ },
+ {
+  "candidate_id": "c0636",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Tilaknagar Industries Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0637",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Landmark Limited",
+  "counterparty": "Trent Limited",
+  "reason": "Multi-company amalgamation and arrangement"
+ },
+ {
+  "candidate_id": "c0638",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Trident Corporation Limited",
+  "counterparty": "Trident Limited",
+  "reason": "Transferor status unclear"
+ },
+ {
+  "candidate_id": "c0639",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Jaypee Cement Corporation",
+  "counterparty": "UltraTech Cement Limited",
+  "reason": "Arrangement with shareholders, unclear"
+ },
+ {
+  "candidate_id": "c0640",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Enrica Enterprises Private Limited",
+  "counterparty": "United Spirits Limited",
+  "reason": "Promoter-linked company; share issue unclear"
+ },
+ {
+  "candidate_id": "c0641",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Shree Uttam Steel and Power",
+  "counterparty": "Uttam Galva Steels",
+  "reason": "Group company, unclear"
+ },
+ {
+  "candidate_id": "c0642",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Visa Steel Limited",
+  "counterparty": "Visa Special Steel Limited",
+  "reason": "Arrangement likely demerger"
+ },
+ {
+  "candidate_id": "c0643",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Emami Realty Limited",
+  "counterparty": "Zandu Realty Limited",
+  "reason": "Amalgamation of group companies, unclear"
+ },
+ {
+  "candidate_id": "c0644",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Diligent Media Corporation",
+  "counterparty": "Zee Entertainment Enterprises",
+  "reason": "Possible share issue to Diligent holders"
+ },
+ {
+  "candidate_id": "c0645",
+  "verdict": "research",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Zee Entertainment Enterprises",
+  "counterparty": "",
+  "reason": "Equity shareholders arrangement, unclear"
+ },
+ {
+  "candidate_id": "c0646",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Zee Media Corporation Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0647",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "A2Z Maintenance & Engineering Services Limited",
+  "counterparty": "",
+  "reason": "Creditors arrangement only"
+ },
+ {
+  "candidate_id": "c0648",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Anushakti Holdings / Gogri & Sons",
+  "counterparty": "Aarti Industries Limited",
+  "reason": "Multi-company amalgamation, unclear"
+ },
+ {
+  "candidate_id": "c0649",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Action Construction Equipment Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0650",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Adani Power Limited",
+  "counterparty": "Adani Power Maharashtra",
+  "reason": "Three-company arrangement, unclear"
+ },
+ {
+  "candidate_id": "c0651",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Aurionpro Solutions Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0652",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "BPL Limited",
+  "counterparty": "",
+  "reason": "Capital reduction with shareholders and creditors"
+ },
+ {
+  "candidate_id": "c0653",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Banswara Syntex Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0654",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Blue Star Limited",
+  "counterparty": "Blue Star Electro-Mechanical",
+  "reason": "Filer may be transferor; unclear"
+ },
+ {
+  "candidate_id": "c0655",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Cheslind Textiles Limited",
+  "counterparty": "RSWM Limited",
+  "reason": "Filer is transferor merging into RSWM"
+ },
+ {
+  "candidate_id": "c0656",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Sabero Organics Gujarat Limited",
+  "counterparty": "Coromandel International",
+  "reason": "Listed subsidiary merging into parent"
+ },
+ {
+  "candidate_id": "c0657",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "D B Realty Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0658",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Dhanuka Finvest / A.M. Bros. Fintrade",
+  "counterparty": "Dhanuka Agritech Limited",
+  "reason": "Promoter companies; share issue unclear"
+ },
+ {
+  "candidate_id": "c0659",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Plenty Valley Infra Limited",
+  "counterparty": "Dhunseri Investments Limited",
+  "reason": "Transferor status unclear"
+ },
+ {
+  "candidate_id": "c0660",
+  "verdict": "research",
+  "kind_hint": "DEMERGER",
+  "source_company": "Dhunseri Petrochem & Tea Limited",
+  "counterparty": "Dhunseri Tea & Industries Limited",
+  "reason": "Tea division demerger"
+ },
+ {
+  "candidate_id": "c0661",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "EID Parry India Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0662",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Electrosteel Castings Limited",
+  "counterparty": "",
+  "reason": "Private company merging into filer"
+ },
+ {
+  "candidate_id": "c0663",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Essel Propack Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0664",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Anand Synthochem Limited",
+  "counterparty": "FDC Limited",
+  "reason": "Transferor Anand Synthochem status unclear"
+ },
+ {
+  "candidate_id": "c0665",
+  "verdict": "research",
+  "kind_hint": "MERGER",
+  "source_company": "Future Agrovet Limited",
+  "counterparty": "Future Consumer Enterprise",
+  "reason": "Transferor status unclear"
+ },
+ {
+  "candidate_id": "c0666",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Gateway Distriparks Limited",
+  "counterparty": "",
+  "reason": "Private subsidiary merging into filer"
+ },
+ {
+  "candidate_id": "c0667",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Glenmark Pharmaceuticals Limited",
+  "counterparty": "",
+  "reason": "Subsidiaries merging into filer"
+ },
+ {
+  "candidate_id": "c0668",
+  "verdict": "skip",
+  "kind_hint": "UNKNOWN",
+  "source_company": "Godrej Industries Limited",
+  "counterparty": "",
+  "reason": "Subsidiary merging into filer"
+ }
+]
